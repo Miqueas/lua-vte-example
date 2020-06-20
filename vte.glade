@@ -27,6 +27,14 @@
         <property name="subtitle" translatable="yes">Very nice Vte Terminal example written in Lua</property>
         <property name="spacing">0</property>
         <property name="show_close_button">True</property>
+        <child>
+          <object class="GtkButton" id="pingBtn">
+            <property name="label" translatable="yes">Ping</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </object>
+        </child>
       </object>
     </child>
   </object>

@@ -19,9 +19,13 @@ local term = Vte.Terminal({ -- Puedes modificar esto según tus gustos
   cursor_shape = Vte.CursorShape.IBEAM -- Tipo de cursor
 })
 
--- Cierra la aplicación al finalizar el programa hijo
+-- Cierra la aplicación al finalizar el proceso hijo
 function term:on_child_exited(status, data)
   app:quit()
+end
+
+function ui.pingBtn:on_clicked(data)
+  term:feed_child("ping -c 5 8.8.8.8\n")
 end
 
 function app:on_activate(data)
