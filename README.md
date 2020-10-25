@@ -10,7 +10,7 @@ __Limitaciones__
 
 La idea original era que el script sea capaz de crear la ventana con la terminal y además que al presionar un botón se pudieran agregar pestañas con otras instancias de VTE. Sin embargo, por alguna razón, luego de varios intentos no pude lograrlo con éxito y lo único que sucedía era que la ventana se congelaba y no respondía de ninguna manera y luego pasados unos segundos, se rompía el programa haciendo que el sistema retornaba un error `SIGSEV` o algo similar.
 
-También, con la función `vte_terminal_spawn_async()` parece no funcionar correctamente con LGI.
+También, la función `vte_terminal_spawn_async()` parece no funcionar correctamente en LGI.
 
 __Requisitos__
 
