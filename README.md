@@ -1,3 +1,5 @@
+[![License][LicenseBadge]][licenseURL]
+
 # lua-vte-example
 
 Este repositorio contiene un pequeño ejemplo de cómo usar VTE con LGI en Lua y crear una ventana de terminal simple.
@@ -15,3 +17,6 @@ También, la función `vte_terminal_spawn_async()` parece no funcionar correctam
 __Requisitos__
 
 Para ejecutar `main.lua`, solo necesitarás Lua 5.1 en adelante, [LGI](https://github.com/pavouk/lgi) y Vte.
+
+[LicenseBadge]: https://img.shields.io/badge/License-Zlib-brightgreen?style=for-the-badge
+[LicenseURL]: https://opensource.org/licenses/Zlib
